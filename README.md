@@ -1,68 +1,71 @@
-# Financial Insights in Banking Data: Power BI Dashboard
-
-## 🎯 Project Overview
-
-This project presents a comprehensive **Interactive Banking Dashboard** developed in Power BI. The goal of this analysis is to transform raw banking and financial transaction data into actionable insights for strategic decision-making in areas like customer churn, revenue analysis, and service optimization.
-
-The analysis is based on a **[Describe your data—e.g., hypothetical/Kaggle/public]** dataset containing **[X]** million rows of **[Customer/Transaction/Loan]** data.
+<h1 align="center">Financial Insights in Banking Data using Power BI</h1>
 
 ---
 
-## 📈 Key Insights & Business Impact
+<p align="center">
+    <img src="https://github.com/meabhaykr/Financial-Insights-in-Banking-Data-using-PowerBI/blob/main/Banner.jpg" alt="Banner.jpg">
+</p>
 
-This dashboard provides critical insights that allow stakeholders to monitor key performance indicators (KPIs) and drive strategic initiatives:
+## Project Overview
+This project leverages Power BI to provide in-depth financial insights for banking institutions. By analyzing 'Banking Transactions' and 'Customer Account Details' datasets, we aim to help banks make informed decisions about customer relationships, risk assessment, and product offerings.
 
-| Metric | Insight Delivered | Actionable Conclusion |
-| :--- | :--- | :--- |
-| **Customer Churn Rate** | Churn is highest among **[Age Group/Service Type]**, spiking in the last quarter. | Focus retention campaigns on these high-risk customer segments. |
-| **Revenue & Profitability** | **[Product Category Name]** accounts for 65% of net profit, but requires a significant portion of service resources. | Investigate automation for service requests related to this product to maintain profitability. |
-| **Geographic Performance** | The **[Region Name]** branch shows the highest average transaction value but the lowest cross-selling rate. | Develop targeted upselling training for sales teams in the **[Region Name]** branch. |
-| **[Your Fourth Key Metric]** | [Your fourth key insight/finding]. | [Actionable conclusion based on the insight]. |
+## Key Features
+- **Data Cleaning and Standardization**: Removed failed transactions and reformatted datasets for consistency and accuracy.
+- **Data Relationships**: Established and optimized data relationships to ensure high data quality.
+- **Branch Efficiency Rating System**: Developed a system to rate branch efficiency, enhancing risk assessment and performance metrics.
+- **Credit Score Analysis**: Identified high-value transactions and analyzed credit scores for better risk management.
+- **Interactive Dashboard**: Created an interactive dashboard for comprehensive data visualization and insights.
+
+## Project Goals
+- Extract meaningful insights from banking data to support strategic decision-making.
+- Improve customer satisfaction through data-driven optimizations in banking services.
+- Identify new growth opportunities and predict future account growth using advanced data analysis techniques.
+
+## Datasets Used
+1. **Banking Transactions**
+2. **Customer Account Details**
+
+## Tools and Technologies
+- **Power BI**: For data visualization and dashboard creation.
+- **DAX (Data Analysis Expressions)**: For advanced data analysis and calculations.
+- **EDA (Exploratory Data Analysis)**: For initial data exploration and understanding.
+- **Data Cleaning**: Ensuring data quality and consistency.
+
+## Methodology
+1. **Data Import and Quality Check**: Imported both datasets into Power BI and checked for data quality issues.
+2. **Data Cleaning**: Removed failed transactions and standardized transaction amounts.
+3. **Data Merging**: Combined the datasets for comprehensive analysis.
+4. **Advanced Analysis using DAX**: 
+   - Analyzed transaction trends over time.
+   - Studied customer demographics and employment sectors.
+   - Analyzed loan amounts, interest rates, and credit scores.
+5. **Predictive Modeling**: Developed models to estimate future account growth based on transaction patterns.
+6. **Visualization**: Created interactive dashboards to present insights clearly and effectively.
+
+## Insights and Outcomes
+- **Branch Efficiency**: The rating system provided insights into branch performance and areas for improvement.
+- **Customer Analysis**: Detailed understanding of customer demographics and high-value transactions.
+- **Risk Assessment**: Enhanced risk management through comprehensive credit score analysis.
+- **Strategic Decision-Making**: Data-driven insights enabled informed strategic decisions, improving overall performance and customer satisfaction.
+
+<p align="center">
+    <img src="https://github.com/meabhaykr/Financial-Insights-in-Banking-Data-using-PowerBI/blob/main/Power%20Bi%20Dashboard%20Image.png" alt="Power Bi Dashboard Image">
+</p>
+
+## Project Link
+[Access the project files and dashboard](https://drive.google.com/drive/folders/12JehfBqbzBIicYZ1lYkcQi65iE3BKKoH?usp=sharing)
+
+## Conclusion
+This project demonstrates the power of data analysis and visualization in transforming raw banking data into actionable insights. By leveraging Power BI and advanced analytics, banking institutions can optimize their services, manage risks more effectively, and enhance customer satisfaction.
 
 ---
 
-## 🛠️ Tools and Technologies
+Feel free to explore the project files and interactive dashboard via the provided link. If you have any questions or feedback, please reach out!
 
-* **Data Visualization & Analysis:** Power BI Desktop
-* **Data Source:** Microsoft Excel (`.xlsx` format) / CSV
-* **Data Modeling:** Star Schema design (e.g., Fact: Transactions, Dimensions: Customer, Account)
-* **Data Cleaning & Transformation:** Power Query (M Language)
-* **Calculations:** Data Analysis Expressions (DAX)
-
-## 📊 Dashboard Visuals
-
-
- 
-      <img width="629" height="335" alt="image" src="https://github.com/user-attachments/assets/25aeb04a-2c00-446c-ab35-1e652c2f0ae3" />
-
-
-## 📁 Repository Structure
-
-| File/Folder | Description |
-| :--- | :--- |
-| `Financial Bank Power Bi Dashboard.pbix` | The main Power BI Desktop file containing the final report, data model, and visuals. |
-| `Data/` | Folder containing the raw source data files (`BankingDataset1.xlsx`, etc.). |
-| `README.md` | This file, providing project documentation and context. |
-
-## 🔗 How to View the Report
-
-### 1. Interactive Web Report (Recommended)
-
-View the fully interactive dashboard online via Power BI Service:
-
-➡️ **[LIVE INTERACTIVE REPORT LINK HERE]**
-* *(Publish your report to Power BI Service and use the "Publish to web (public)" feature to get this embed link.)*
-
-### 2. Local View
-
-1.  Clone this repository to your local machine.
-2.  Ensure you have **Power BI Desktop** installed.
-3.  Open the file `Financial Bank Power Bi Dashboard.pbix`.
-4.  If prompted, refresh the data to load it into the model.
+## Contact
+For any inquiries or support, please contact at meabhaykr@gmail.com
 
 ---
 
-## ✍️ Author
+Happy analyzing!
 
-**Kinara Soni**
-* https://www.linkedin.com/in/kinara-chapaneri/
